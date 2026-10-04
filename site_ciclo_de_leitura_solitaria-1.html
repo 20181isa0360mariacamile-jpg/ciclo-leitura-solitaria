@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#6b3f32">
+<meta name="description" content="Ciclo de Leitura — Solitária, de Eliana Alves Cruz. Encontro final com a autora em 11 de dezembro, às 14h30.">
+<title>Ciclo de Leitura | Solitária — Eliana Alves Cruz</title>
+<style>
+:root {
+  --brown:#633b30; --brown2:#815244; --cream:#f5ead7;
+  --paper:#fffaf1; --ink:#2f211d; --accent:#d9a96b; --blue:#466b78;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0; font-family: Georgia, "Times New Roman", serif;
+  color:var(--ink); background:var(--cream); line-height:1.6;
+}
+a {color:inherit}
+.container {width:min(1080px, 92%); margin:auto}
+.hero {
+  min-height:76vh; display:flex; align-items:center;
+  background:
+    radial-gradient(circle at 85% 18%, rgba(217,169,107,.35), transparent 25%),
+    linear-gradient(135deg, var(--brown), #4d3029);
+  color:#fff8ed; position:relative; overflow:hidden;
+}
+.hero:after {
+  content:""; position:absolute; width:330px; height:330px; border-radius:50%;
+  border:1px solid rgba(255,255,255,.22); right:-90px; bottom:-100px;
+}
+.kicker {letter-spacing:.16em; text-transform:uppercase; font:700 13px Arial,sans-serif; opacity:.9}
+h1 {font-size:clamp(3rem,8vw,6.6rem); line-height:.9; margin:18px 0 20px; font-weight:500}
+.hero h2 {font-size:clamp(1.25rem,3vw,2rem); font-weight:400; margin:0 0 30px}
+.badges {display:flex; flex-wrap:wrap; gap:10px}
+.badge {
+  padding:9px 14px; border:1px solid rgba(255,255,255,.35);
+  border-radius:999px; font:600 13px Arial,sans-serif;
+}
+nav {background:var(--paper); border-bottom:1px solid #e4d4bd; position:sticky; top:0; z-index:5}
+.navin {display:flex; justify-content:space-between; align-items:center; padding:12px 0}
+.logo {font-weight:700}
+nav a {text-decoration:none; margin-left:18px; font:600 13px Arial,sans-serif}
+section {padding:72px 0}
+.grid {display:grid; grid-template-columns:1.1fr .9fr; gap:34px; align-items:stretch}
+.card {
+  background:var(--paper); border:1px solid #e5d5bf; border-radius:24px;
+  padding:30px; box-shadow:0 12px 30px rgba(70,40,25,.07);
+}
+.card h3 {margin-top:0; font-size:1.55rem}
+.quote {
+  font-size:clamp(1.4rem,3vw,2.1rem); line-height:1.25;
+  padding:38px; background:var(--brown); color:#fff8ed; border-radius:28px;
+}
+.event {background:#e4d0b6}
+.event h2 {font-size:clamp(2rem,5vw,4rem); margin:8px 0 25px; line-height:1}
+.details {display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin:25px 0}
+.detail {background:rgba(255,255,255,.55); border-radius:16px; padding:18px}
+.detail strong {display:block; font:700 12px Arial,sans-serif; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px}
+.btns {display:flex; flex-wrap:wrap; gap:12px; margin-top:24px}
+.btn {
+  display:inline-block; padding:14px 20px; border-radius:999px;
+  text-decoration:none; font:700 14px Arial,sans-serif; transition:.2s;
+}
+.btn.primary {background:var(--brown); color:white}
+.btn.secondary {border:1px solid var(--brown); color:var(--brown)}
+.btn:hover {transform:translateY(-2px)}
+.orgs {display:flex; flex-wrap:wrap; gap:10px; margin-top:20px}
+.org {padding:10px 14px; border-radius:14px; background:#efe1cd; font-weight:700}
+footer {background:#402820; color:#f8eddd; padding:40px 0}
+.small {font:13px Arial,sans-serif; opacity:.8}
+@media(max-width:760px){
+ .grid {grid-template-columns:1fr}
+ .details {grid-template-columns:1fr}
+ nav .links {display:none}
+ section {padding:52px 0}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container navin">
+    <div class="logo">Ciclo de Leitura</div>
+    <div class="links">
+      <a href="#sobre">Sobre</a>
+      <a href="#encontro">Encontro final</a>
+      <a href="#inscricao">Inscrição</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="kicker">Outubro • Novembro • Dezembro</div>
+    <h1>Solitária</h1>
+    <h2>de Eliana Alves Cruz</h2>
+    <div class="badges">
+      <span class="badge">Ciclo de leitura</span>
+      <span class="badge">Encontro final com a autora</span>
+      <span class="badge">Online</span>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="sobre">
+  <div class="container grid">
+    <div>
+      <div class="kicker">Sobre o ciclo</div>
+      <h2 style="font-size:clamp(2rem,5vw,3.8rem);line-height:1.05">Uma leitura que se encontra, conversa e se amplia.</h2>
+      <p>Durante os meses de <strong>outubro, novembro e dezembro</strong>, realizaremos um Ciclo de Leitura dedicado ao romance <em>Solitária</em>, de <strong>Eliana Alves Cruz</strong>.</p>
+      <p>O ciclo propõe um espaço de leitura e discussão da obra, culminando em um encontro especial com a própria autora.</p>
+    </div>
+    <div class="quote">
+      <div class="kicker">Encerramento</div>
+      <p>“Um encontro final para conversar sobre a obra, a escrita e as questões que atravessam <em>Solitária</em>.”</p>
+    </div>
+  </div>
+</section>
+
+<section id="encontro" class="event">
+  <div class="container">
+    <div class="kicker">✨ Momento especial</div>
+    <h2>Encontro final<br>com a autora</h2>
+    <div class="details">
+      <div class="detail"><strong>Data</strong>11 de dezembro</div>
+      <div class="detail"><strong>Horário</strong>14h30</div>
+      <div class="detail"><strong>Plataforma</strong>Google Meet</div>
+      <div class="detail"><strong>Transmissão</strong>YouTube do Projeto Teseu</div>
+    </div>
+    <p>O encontro final contará com a presença de <strong>Eliana Alves Cruz</strong>. Também haverá <strong>sorteio</strong> durante a atividade.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfteF9qh0hqJxuwp5hYePSNixJg4VwmmidpH6ws0PoVqPMUXg/viewform?usp=publish-editor" target="_blank" rel="noopener">📝 Fazer inscrição</a>
+      <a class="btn secondary" href="https://youtube.com/@projetoteseu?si=0nYcWVieRwN7icBp" target="_blank" rel="noopener">▶️ Projeto Teseu no YouTube</a>
+    </div>
+  </div>
+</section>
+
+<section id="inscricao">
+  <div class="container grid">
+    <div class="card">
+      <div class="kicker">Participação</div>
+      <h3>Inscreva-se</h3>
+      <p>Preencha o formulário para participar do Ciclo de Leitura e receber as informações referentes ao encontro final.</p>
+      <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfteF9qh0hqJxuwp5hYePSNixJg4VwmmidpH6ws0PoVqPMUXg/viewform?usp=publish-editor" target="_blank" rel="noopener">Acessar formulário</a>
+    </div>
+    <div class="card">
+      <div class="kicker">Transmissão</div>
+      <h3>Assista pelo YouTube</h3>
+      <p>A transmissão do encontro final também estará disponível no canal do <strong>Projeto Teseu</strong>.</p>
+      <a class="btn secondary" href="https://youtube.com/@projetoteseu?si=0nYcWVieRwN7icBp" target="_blank" rel="noopener">Abrir canal do YouTube</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="card">
+      <div class="kicker">Realização</div>
+      <h3>Organização e parceria</h3>
+      <div class="orgs">
+        <span class="org">PPGL/UFRR</span>
+        <span class="org">Grupo de Pesquisa NUA</span>
+        <span class="org">Projeto Pretoteca</span>
+        <span class="org">NEPFIR/UnB</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <strong>Ciclo de Leitura — <em>Solitária</em></strong>
+    <p class="small">Eliana Alves Cruz • Outubro, novembro e dezembro • Encontro final em 11 de dezembro, às 14h30.</p>
+  </div>
+</footer>
+
+</body>
+</html>
